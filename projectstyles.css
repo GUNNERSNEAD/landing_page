@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+    align-items: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.left {
+    align-items: center;
+    background-color: blueviolet;
+    margin: 8px;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 32px;
+}
+
+.logo {
+    background-color: chartreuse;
+    margin: 8px;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 64px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.menu {
+    align-items: center;
+    font-size: 32px;
+    padding: 12px;
+    margin: 8px;
+    background-color: goldenrod;
+    border-radius: 8px
+}
