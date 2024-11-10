@@ -1,37 +1,101 @@
 .header {
     display: flex;
-    background-color: aqua;
-    justify-content: space-between;
+    justify-content: space-around;
+    background-color: bisque;
     align-items: center;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
-.left {
+.top-left , .menu , .stink-menu {
     align-items: center;
     background-color: blueviolet;
-    margin: 8px;
     padding: 12px;
     border-radius: 8px;
-    font-size: 32px;
+    font-size: 24px;
 }
 
-.logo {
-    background-color: chartreuse;
-    margin: 8px;
-    padding: 12px;
-    border-radius: 8px;
-    font-size: 64px;
+img {
+    max-width: 320px;
 }
 
 li {
     list-style-type: none;
 }
 
-.menu {
+.body-container {
+    display: flex;
+    background-color: crimson;
+    justify-content: space-evenly;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.left-side {
+    flex-direction: column;
+    max-width: 500px;
+    padding: 24px;
+}
+
+.showcase {
     align-items: center;
-    font-size: 32px;
-    padding: 12px;
-    margin: 8px;
-    background-color: goldenrod;
-    border-radius: 8px
+    display: flex;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+.bottom-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+    margin: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.glass-container {
+    margin: 16px;
+}    
+
+.footer {
+    display: flex;
+    justify-content:space-between;
+    background-color: aliceblue;
+    padding: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a {
+   flex-direction: column;
+   text-decoration: none;
+   color: black;
+}
+
+h3 {
+    text-align: center;
+}
+
+
+.foot-links {
+    flex-direction: column;
+    display: flex;
+    gap: 24px;
+    list-style: none;
+}
+
+form input {
+    width: 400px;
+    height: 45px;
+    border-radius: 8px ;
+    text-align: center;
+}
+
+form button {
+    width: 400px;
+    height: 45px;
+    border-radius: 24px;
+    text-align: center;
+    background: transparent;
+    padding: 10px 30px ;
 }
