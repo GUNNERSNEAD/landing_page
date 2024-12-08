@@ -657,6 +657,10 @@ video {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.font-sixtyfour{
+  font-family: Sixtyfour Convergence, serif;
+}
+
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
